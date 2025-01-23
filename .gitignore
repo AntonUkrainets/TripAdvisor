@@ -1,0 +1,9 @@
+/Backup/
+/Documents/
+/Publish/
+/packages/
+bin/
+obj/
+.vs/
+.svn/
+*.rar

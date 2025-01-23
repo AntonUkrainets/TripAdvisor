@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Csv.Core\Csv.Core.csproj" />
+    <ProjectReference Include="..\UniversalParser.Data\UniversalParser.Data.csproj" />
+    <ProjectReference Include="..\UniversalParser.SharedKernel\UniversalParser.SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>
